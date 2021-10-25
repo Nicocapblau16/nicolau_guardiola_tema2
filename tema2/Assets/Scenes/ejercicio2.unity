@@ -158,8 +158,6 @@ MonoBehaviour:
   x: 5
   y: 3
   z: 3
-  playerName: Lyu
-  enemyName: Lyu_
 --- !u!65 &67716082
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -590,6 +588,8 @@ MonoBehaviour:
   numberWheels: 4
   sound: Brum, Brum
   hasSiren: 0
+  isOn: 1
+  gasoline: 8.25
 --- !u!1001 &6810648616670156443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -676,3 +676,5 @@ MonoBehaviour:
   numberWheels: 4
   sound: "\xA1Ni-no, ni-no!"
   hasSiren: 1
+  isOn: 0
+  gasoline: 49.75
